@@ -9,7 +9,7 @@ trigger:
 pool:
   name: az400-linux-pool001
   demands:
-    - agent.name -equals linux-pool00
+  - agent.name -equals linux-pool001
 
 steps:
 - task: NodeTool@0
